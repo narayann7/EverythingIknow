@@ -1,15 +1,12 @@
 ## Are you Tired of slow animation of dock in Mac?
 
 #### ℹ️ Prerequisite
-first make sure `Automatically hide and show the Dock` is toggled on in <br> settings -> desktop and dock 
-
-
+first make sure `Automatically hide and show the Dock` is toggled on in <br>settings -> desktop and dock 
 #### 🤖 Command
 To set the macOS Dock to hide and show instantly, execute the following command in your Terminal:
 ```
-defaults delete com.apple.dock autohide-time-modifier; defaults delete com.apple.dock autohide-delay; killall Dock
+defaults write com.apple.dock autohide-time-modifier -int 0; defaults write com.apple.dock autohide-delay -float 0; killall Dock
 ```
-
 #### 📄 Explanation:
 
 `defaults write com.apple.dock autohide-time-modifier -int 0`
@@ -23,8 +20,6 @@ defaults delete com.apple.dock autohide-time-modifier; defaults delete com.apple
 `killall Dock`
 
 • This command restarts the Dock, applying the changes immediately.
-
-
 #### ↩️ Reverting to Default behavior
 If you decide to revert the Dock to its default settings, use the following command:
 ```
