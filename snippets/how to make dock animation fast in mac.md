@@ -6,7 +6,7 @@ To set the macOS Dock to hide and show instantly, execute the following command 
 ```
 defaults delete com.apple.dock autohide-time-modifier; defaults delete com.apple.dock autohide-delay; killall Dock
 ```
-<br>
+
 #### Explanation:
 
 `defaults write com.apple.dock autohide-time-modifier -int 0`
