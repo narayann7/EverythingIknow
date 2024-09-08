@@ -5,7 +5,8 @@ first make sure `Automatically hide and show the Dock` is toggled on in <br>sett
 
 
 
-https://github.com/user-attachments/assets/418f154b-4ea2-4e96-aa4c-f89fea86ab39
+[hii](https://github.com/user-attachments/assets/418f154b-4ea2-4e96-aa4c-f89fea86ab39)
+
 
 
 #### 🤖 Command
